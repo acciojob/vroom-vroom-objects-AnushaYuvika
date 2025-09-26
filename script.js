@@ -8,7 +8,7 @@ Car.prototype.getMakeModel = function() {
     return `${this.make} ${this.model}`;
 };
 
-function SportsCar extends Car(make, model, topSpeed) {
+function SportsCar (make, model, topSpeed) {
 	this.make = make;
 	this.model = model;
 	this.topSpeed = topSpeed;
